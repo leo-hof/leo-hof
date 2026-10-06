@@ -9,11 +9,12 @@ MSc Data Science student at ETH Zürich, focused on machine learning and statist
 - Status: pipeline working, evaluation in progress
 
 ### Other projects
-- **[Cross-Entropy Method under noise](https://github.com/leo-hof/cross-entropy-method-under-noise)**: when rewards or transitions are noisy, the Cross-Entropy Method tends to keep policies that were just lucky in one episode. I modified how it scores candidate policies so that it selects good ones instead; under noisy rewards, advantage-based scoring raises the mean return from 398 to 694.
-- **[French formality classifier](https://github.com/leo-hof/french-formality-classifier)**: CamemBERT fine-tuned to tell formal from informal French (96% accuracy), with a token-masking and POS-tag analysis of which words drive the prediction.
+- **[Cross-Entropy Method under noise](https://github.com/leo-hof/cross-entropy-method-under-noise)**: when rewards, transitions or observations are noisy, the Cross-Entropy Method tends to keep policies that were just lucky in one episode, failing to converge. To reduce this, I compared three ways of scoring candidate policies in noisy CartPole environments; scoring by a learned advantage gave the best results with noisy rewards (mean return 694 against 398).
+- **[French formality classifier](https://github.com/leo-hof/french-formality-classifier)**: CamemBERT fine-tuned to classify French sentences as formal or informal (96.4% validation accuracy), with a token-masking and POS-tag analysis of which words and parts of speech the model relies on.
+- **[Stochastic predator-prey model](https://github.com/leo-hof/stochastic-predator-prey-model)**: a monthly simulation of lion and antelope populations built from Poisson and Binomial random variables, with an analysis of the resulting oscillations and of extreme starting populations.
 
 ### Tools
-Python · PyTorch · scikit-learn · pandas · SQL · Spark · JSONiq · Git
+Python · PyTorch · scikit-learn · pandas · NumPy · SQL · Spark · JSONiq · Git
 
 ### Looking for
 A 6-month internship in data science, ML or statistics starting January–February 2027 in Switzerland, or a working-student position.
