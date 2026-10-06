@@ -13,7 +13,7 @@ MSc Data Science student at ETH Zürich, focused on machine learning and statist
 - **[French formality classifier](https://github.com/leo-hof/french-formality-classifier)**: CamemBERT fine-tuned to tell formal from informal French (96% accuracy), with a token-masking and POS-tag analysis of which words drive the prediction.
 
 ### Tools
-Python · PyTorch · scikit-learn · pandas · SQL · Spark · JSONiq · Git · Claude Code
+Python · PyTorch · scikit-learn · pandas · SQL · Spark · JSONiq · Git
 
 ### Looking for
 A 6-month internship in data science, ML or statistics starting January–February 2027 in Switzerland, or a working-student position.
