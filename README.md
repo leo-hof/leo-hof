@@ -2,16 +2,11 @@
 
 MSc Data Science student at ETH Zürich, focused on machine learning and statistics.
 
-### Current project
-**Annual Report RAG** (repository coming soon): a retrieval-augmented QA system over annual reports of Swiss companies.
-- Retrieval: comparing BM25, dense embeddings, and hybrid search
-- Evaluation: a hand-labeled question set, with statistical comparison of approaches (confidence intervals, significance tests)
-- Status: pipeline working, evaluation in progress
-
-### Other projects
+### Projects
 - **[Cross-Entropy Method under noise](https://github.com/leo-hof/cross-entropy-method-under-noise)**: when rewards, transitions or observations are noisy, the Cross-Entropy Method tends to keep policies that were just lucky in one episode, failing to converge. To reduce this, I compared three ways of scoring candidate policies in noisy CartPole environments; scoring by a learned advantage gave the best results with noisy rewards (mean return 694 against 398).
 - **[French formality classifier](https://github.com/leo-hof/french-formality-classifier)**: CamemBERT fine-tuned to classify French sentences as formal or informal (96.4% validation accuracy), with a token-masking and POS-tag analysis of which words and parts of speech the model relies on.
 - **[Stochastic predator-prey model](https://github.com/leo-hof/stochastic-predator-prey-model)**: a monthly simulation of lion and antelope populations built from Poisson and Binomial random variables, with an analysis of the resulting oscillations and of extreme starting populations.
+- **Question answering over Swiss annual reports** (in progress, not public yet): a retrieval-augmented system over the annual reports of five Swiss companies, evaluated on a hand-checked set of questions.
 
 ### Tools
 Python · PyTorch · scikit-learn · pandas · NumPy · SQL · Spark · JSONiq · Git
@@ -19,4 +14,4 @@ Python · PyTorch · scikit-learn · pandas · NumPy · SQL · Spark · JSONiq �
 ### Looking for
 A 6-month internship in data science, ML or statistics starting January–February 2027 in Switzerland, or a working-student position.
 
-📫 [LinkedIn](https://www.linkedin.com/in/leo-hof) · leohof@ethz.ch
+📫 [LinkedIn](https://www.linkedin.com/in/leo-hof) · leohof@student.ethz.ch
