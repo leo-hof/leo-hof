@@ -12,6 +12,6 @@ MSc Data Science student at ETH Zürich, focused on machine learning and statist
 Python · PyTorch · scikit-learn · pandas · NumPy · SQL · Spark · JSONiq · Git
 
 ### Looking for
-A 6-month internship in data science, ML or statistics starting January–February 2027 in Switzerland, or a working-student position.
+A 6-month internship in Data Science, Machine Learning, or Statistics in Switzerland (available from February 2027), a summer internship, or a working student position.
 
 📫 [LinkedIn](https://www.linkedin.com/in/leo-hof) · leohof@student.ethz.ch
